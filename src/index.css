@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-ink-950 text-slate-200 antialiased font-sans;background-image:radial-gradient(900px 400px at 70% -10%,rgba(56,120,246,.10),transparent),radial-gradient(600px 300px at 0% 0%,rgba(139,92,246,.06),transparent);background-attachment:fixed}
+:focus-visible{outline:2px solid #38bdf8;outline-offset:2px;border-radius:6px}
+::selection{background:#1d4ed8aa}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
